@@ -3,7 +3,7 @@
 
 body {
   /* Location of the image */
-  background-image: url(images/sup.jpg);
+  background-image: url(sup.jpg);
   
   /* Image is centered vertically and horizontally at all times 
   Original: background-position: center center;*/
