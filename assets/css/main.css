@@ -351,7 +351,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #1cb495 !important;
+			color: #a41cb4 !important; /* change from 1cb495*/
 			text-decoration: none;
 		}
 
@@ -790,7 +790,7 @@
 			-ms-animation: focus 0.1s;
 			animation: focus 0.1s;
 			background-color: rgba(255, 255, 255, 0.125);
-			border-color: #1cb495;
+			border-color: #a41cb4; /* change from 1cb495*/
 		}
 
 	.select-wrapper {
@@ -892,15 +892,15 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #1cb495;
-			border-color: #1cb495;
+			background: #a41cb4; /* change from 1cb495*/
+			border-color: #a41cb4; /* change from 1cb495*/
 			color: #ffffff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #1cb495;
+			border-color: #a41cb4; /* change from 1cb495*/
 			box-shadow: 0 0 0 2px #1cb495;
 		}
 
@@ -952,7 +952,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		background-color: #1cb495;
+		background-color: #a41cb4; /* change from 1cb495*/
 		border-radius: 6px;
 		border: 0;
 		color: #ffffff !important;
@@ -972,7 +972,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #1fcaa7;
+			background-color: #a41cb4; /* change from 1cb495*/
 		}
 
 		input[type="submit"]:active,
