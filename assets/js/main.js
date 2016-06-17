@@ -38,6 +38,16 @@
 				var settings = {
 
 					// Images (in the format of 'url': 'alignment').
+					
+					var mql = window.matchMedia("screen and (max-width: 736px)")
+					
+					if (mql.matches){ // if media query matches
+						alert("Window is 800px or wider")
+					}
+					else{
+						// do something else
+					}
+					
 						images: {
 							'images/bg01.jpg': 'center',
 							'images/bg02.jpg': 'center',
