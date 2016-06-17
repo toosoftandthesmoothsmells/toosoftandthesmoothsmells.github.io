@@ -203,13 +203,18 @@
 				}
 
 				@media screen and (max-width: 736px) {
-
+					#bg div {
+						width: 110%;
+					}
+					
 					#bg div.visible {
 						-moz-animation: bg 18s linear infinite;
 						-webkit-animation: bg 18s linear infinite;
 						-ms-animation: bg 18s linear infinite;
 						animation: bg 18s linear infinite;
 					}
+					
+					
 
 				}
 
