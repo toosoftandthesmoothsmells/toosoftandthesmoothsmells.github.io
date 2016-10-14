@@ -1,6 +1,8 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
 /*
 	Alpha by HTML5 UP
 	html5up.net | @ajlkn
@@ -3758,4 +3760,15 @@
 				padding: 2.5em 1em 3em 1em;
 			}
 
+	}
+	
+/* Too Soft Customizations*/
+
+toosoft {
+
+		font-family: 'Pacifico', cursive;
+		font-size: 1.25em;
+		font-weight: 300;
+		line-height: 1.65em;
+		letter-spacing: -0.015em;
 	}
